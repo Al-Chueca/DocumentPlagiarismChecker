@@ -81,7 +81,7 @@ namespace DocumentPlagiarismChecker.Outputs
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.WriteLine(comp.Comparator);
 
-                            //Bucle sobre los detials
+                            //Bucle sobre los detalles
                             DetailsMatchingScore dms = (DetailsMatchingScore)comp;
                             while(dms != null){
                                 if(dl >= dms.DisplayLevel){      
